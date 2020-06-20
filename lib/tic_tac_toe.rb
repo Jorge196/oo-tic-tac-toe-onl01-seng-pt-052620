@@ -97,6 +97,6 @@ class TicTacToe
   end
 
   def winner
-    won? && current_player
+    won? && board[won?[0]]
   end
 end
