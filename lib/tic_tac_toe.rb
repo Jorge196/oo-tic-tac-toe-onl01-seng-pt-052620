@@ -90,7 +90,7 @@ class TicTacToe
     #   position_taken?(index)
     # end
     board.all? do |token|
-      token ! = " "
+      token != " "
     end
   end
 end
