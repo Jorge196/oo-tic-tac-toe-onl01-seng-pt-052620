@@ -62,6 +62,12 @@ class TicTacToe
       display_board
     else
       turn
-    end 
+    end
+  end
+
+  def won?
+    WIN_COMBINATIONS.find do |win_combo|
+      
+    end
   end
 end
