@@ -91,6 +91,9 @@ class TicTacToe
     # end
     # board.all? do |token|
     #   token != " "
-    end
+  end
+
+  def draw?
+    full? && not won?
   end
 end
