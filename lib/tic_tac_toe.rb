@@ -83,14 +83,14 @@ class TicTacToe
   end
 
   def full?
-    # board.all? do |token|
-    #   token == "X" || token == "O"
-    # end
+    board.all? do |token|
+      token == "X" || token == "O"
+    end
     # (0..8).all? do |index|
     #   position_taken?(index)
     # end
-    board.all? do |token|
-      token != " "
+    # board.all? do |token|
+    #   token != " "
     end
   end
 end
