@@ -87,8 +87,8 @@ class TicTacToe
       token == "X" || token == "O"
     end
   end
-  
+
   def draw?
-    full? && not won?
+    full? && !won?
   end
 end
