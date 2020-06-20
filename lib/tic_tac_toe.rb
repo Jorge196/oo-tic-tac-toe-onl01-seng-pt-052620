@@ -75,7 +75,8 @@ class TicTacToe
       position_2_token = board[position_2_index]
       position_3_token = board[position_3_index]
       position_1_token == position_2_token &&
-      position_2_token == position_3_token
+      position_2_token == position_3_token &&
+      position_taken?
     end
   end
 end
