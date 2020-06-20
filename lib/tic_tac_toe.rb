@@ -86,13 +86,8 @@ class TicTacToe
     board.all? do |token|
       token == "X" || token == "O"
     end
-    # (0..8).all? do |index|
-    #   position_taken?(index)
-    # end
-    # board.all? do |token|
-    #   token != " "
   end
-
+  
   def draw?
     full? && not won?
   end
